@@ -1,0 +1,193 @@
+.managerName{
+ position: absolute;
+    left: 300px;
+    top: 20px;
+}
+.managerLogo{
+    position: absolute;
+    left: 180px;
+    top: 10px;
+}
+.lineBgColor{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* 下拉按钮样式 */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+#dropdown1{
+    position: absolute;
+    right: 400px;
+    top: 20px;
+}
+#dropdown2{
+    position: absolute;
+    right: 300px;
+    top: 20px;
+}
+#dropdown3{
+    position: absolute;
+    right: 200px;
+    top: 20px;
+}
+.out{
+    position: absolute;
+    right: 50px;
+    top: 60px;
+}
+.list {
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 700px;
+    width: 1000px;
+    border: 0 black solid;
+    overflow: auto;
+}
+.list table td{
+    width: 120px;
+    text-align:center;
+    border-bottom: 1px #e3e3e3 solid;
+    padding: 10px;
+}
+.list table{
+    margin: auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+.addList {
+    position: relative;
+    top:50%;
+    left:35%;
+    transform: translate(-50%,-50%);
+    height: 700px;
+    width: 1000px;
+    border: 0 black solid;
+    overflow: auto;
+}
+.addList table td{
+    width: 120px;
+    text-align:center;
+    border-bottom: 1px #e3e3e3 solid;
+    padding: 10px;
+}
+.addList table{
+    margin: auto;
+    margin-top: 80px;
+    border-collapse: collapse;
+}
+
+.addButton{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+.addForm{
+    position: absolute;
+    top:40%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    height:310px;
+    width:406px;
+    float: right;
+    margin-right:50px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+.edit_form{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height:310px;
+    width:406px;
+    float: right;
+    margin-right:50px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+#addH2{
+    position: absolute;
+    top: 16%;
+    left: 32%;
+}
+#page_nav{
+    width: 100%;
+    height: 10px;
+    margin: auto;
+
+    text-align: center;
+}
+#pn_input {
+    width: 30px;
+    text-align: center;
+}
+
+.canList {
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 700px;
+    width: 1200px;
+    border: 0 black solid;
+    overflow: auto;
+}
+.canList table td{
+    width: 450px;
+    text-align:center;
+    border-bottom: 1px #e3e3e3 solid;
+    padding: 10px;
+}
+.canList table{
+    margin: auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
